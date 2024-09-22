@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libtire.a CMakeFiles/tire.dir/Tire.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libtire.a

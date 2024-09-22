@@ -646,5 +646,41 @@
   "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /Users/samba/Documents/minisim/build/_deps/catch2-src/src/catch2/.. -isystem /Users/samba/Documents/minisim/build/_deps/catch2-build/generated-includes -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -ffile-prefix-map=/Users/samba/Documents/minisim/build/_deps/catch2-src/= -o CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o -c /Users/samba/Documents/minisim/build/_deps/catch2-src/src/catch2/internal/catch_main.cpp",
   "file": "/Users/samba/Documents/minisim/build/_deps/catch2-src/src/catch2/internal/catch_main.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o"
+},
+{
+  "directory": "/Users/samba/Documents/minisim/build/Aerobody",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/aerobody.dir/Aerobody.cpp.o -c /Users/samba/Documents/minisim/Aerobody/Aerobody.cpp",
+  "file": "/Users/samba/Documents/minisim/Aerobody/Aerobody.cpp",
+  "output": "Aerobody/CMakeFiles/aerobody.dir/Aerobody.cpp.o"
+},
+{
+  "directory": "/Users/samba/Documents/minisim/build/Aerobody",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /Users/samba/Documents/minisim/build/_deps/catch2-src/src/catch2/.. -isystem /Users/samba/Documents/minisim/build/_deps/catch2-build/generated-includes -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/aerobody_tests.dir/AerobodyTests.cpp.o -c /Users/samba/Documents/minisim/Aerobody/AerobodyTests.cpp",
+  "file": "/Users/samba/Documents/minisim/Aerobody/AerobodyTests.cpp",
+  "output": "Aerobody/CMakeFiles/aerobody_tests.dir/AerobodyTests.cpp.o"
+},
+{
+  "directory": "/Users/samba/Documents/minisim/build/Array",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/array.dir/Array.cpp.o -c /Users/samba/Documents/minisim/Array/Array.cpp",
+  "file": "/Users/samba/Documents/minisim/Array/Array.cpp",
+  "output": "Array/CMakeFiles/array.dir/Array.cpp.o"
+},
+{
+  "directory": "/Users/samba/Documents/minisim/build/Array",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /Users/samba/Documents/minisim/build/_deps/catch2-src/src/catch2/.. -isystem /Users/samba/Documents/minisim/build/_deps/catch2-build/generated-includes -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/array_tests.dir/ArrayTests.cpp.o -c /Users/samba/Documents/minisim/Array/ArrayTests.cpp",
+  "file": "/Users/samba/Documents/minisim/Array/ArrayTests.cpp",
+  "output": "Array/CMakeFiles/array_tests.dir/ArrayTests.cpp.o"
+},
+{
+  "directory": "/Users/samba/Documents/minisim/build/Tire",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/tire.dir/Tire.cpp.o -c /Users/samba/Documents/minisim/Tire/Tire.cpp",
+  "file": "/Users/samba/Documents/minisim/Tire/Tire.cpp",
+  "output": "Tire/CMakeFiles/tire.dir/Tire.cpp.o"
+},
+{
+  "directory": "/Users/samba/Documents/minisim/build/Tire",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /Users/samba/Documents/minisim/build/_deps/catch2-src/src/catch2/.. -isystem /Users/samba/Documents/minisim/build/_deps/catch2-build/generated-includes -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/tire_tests.dir/TireTests.cpp.o -c /Users/samba/Documents/minisim/Tire/TireTests.cpp",
+  "file": "/Users/samba/Documents/minisim/Tire/TireTests.cpp",
+  "output": "Tire/CMakeFiles/tire_tests.dir/TireTests.cpp.o"
 }
 ]

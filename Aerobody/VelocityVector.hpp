@@ -45,9 +45,9 @@ struct VelocityVector {
 	/// @brief Calculates the heading
 	/// @note recall that 0 radians is due north, and π/2 radians is due east, and the range is
 	/// [0, 2π]
-	double get_heading(double north_south, double east_west) {
+	double get_heading()const {
     double pi = std::numbers::pi;
-    double range = std::atan2(north_south, east_west);
+    double range = std::atan2(east_west, north_south);
 
     if (range < 0) {
         range += 2 * pi;  
@@ -71,7 +71,7 @@ struct VelocityVector {
 		}
 		const double dot_product = north_south*other.north_south + east_west*other.east_west;
 		const double cross_product = north_south*other.east_west - other.north_south*east_west;
-		return atan2(cross_product, dot_product);
+		return -atan2(cross_product, dot_product);
 		
 	}
 

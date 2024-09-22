@@ -7,7 +7,10 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "/Users/samba/Documents/minisim/Aerobody/CMakeLists.txt"
+  "/Users/samba/Documents/minisim/Array/CMakeLists.txt"
   "/Users/samba/Documents/minisim/CMakeLists.txt"
+  "/Users/samba/Documents/minisim/Tire/CMakeLists.txt"
   "CMakeFiles/3.30.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.3/CMakeSystem.cmake"
   "_deps/catch2-src/CMake/CatchConfigOptions.cmake"
@@ -134,6 +137,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "_deps/catch2-build/CMakeFiles/CMakeDirectoryInformation.cmake"
   "_deps/catch2-build/generated-includes/catch2/catch_user_config.hpp"
   "_deps/catch2-build/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Aerobody/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Array/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Tire/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -169,4 +175,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/minisim.dir/DependInfo.cmake"
   "_deps/catch2-build/src/CMakeFiles/Catch2.dir/DependInfo.cmake"
   "_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/DependInfo.cmake"
+  "Aerobody/CMakeFiles/aerobody.dir/DependInfo.cmake"
+  "Aerobody/CMakeFiles/aerobody_tests.dir/DependInfo.cmake"
+  "Array/CMakeFiles/array.dir/DependInfo.cmake"
+  "Array/CMakeFiles/array_tests.dir/DependInfo.cmake"
+  "Tire/CMakeFiles/tire.dir/DependInfo.cmake"
+  "Tire/CMakeFiles/tire_tests.dir/DependInfo.cmake"
   )

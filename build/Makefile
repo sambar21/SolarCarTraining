@@ -529,6 +529,84 @@ Catch2WithMain/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/build.make _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/build
 .PHONY : Catch2WithMain/fast
 
+#=============================================================================
+# Target rules for targets named aerobody
+
+# Build rule for target.
+aerobody: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aerobody
+.PHONY : aerobody
+
+# fast build rule for target.
+aerobody/fast:
+	$(MAKE) $(MAKESILENT) -f Aerobody/CMakeFiles/aerobody.dir/build.make Aerobody/CMakeFiles/aerobody.dir/build
+.PHONY : aerobody/fast
+
+#=============================================================================
+# Target rules for targets named aerobody_tests
+
+# Build rule for target.
+aerobody_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aerobody_tests
+.PHONY : aerobody_tests
+
+# fast build rule for target.
+aerobody_tests/fast:
+	$(MAKE) $(MAKESILENT) -f Aerobody/CMakeFiles/aerobody_tests.dir/build.make Aerobody/CMakeFiles/aerobody_tests.dir/build
+.PHONY : aerobody_tests/fast
+
+#=============================================================================
+# Target rules for targets named array
+
+# Build rule for target.
+array: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 array
+.PHONY : array
+
+# fast build rule for target.
+array/fast:
+	$(MAKE) $(MAKESILENT) -f Array/CMakeFiles/array.dir/build.make Array/CMakeFiles/array.dir/build
+.PHONY : array/fast
+
+#=============================================================================
+# Target rules for targets named array_tests
+
+# Build rule for target.
+array_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 array_tests
+.PHONY : array_tests
+
+# fast build rule for target.
+array_tests/fast:
+	$(MAKE) $(MAKESILENT) -f Array/CMakeFiles/array_tests.dir/build.make Array/CMakeFiles/array_tests.dir/build
+.PHONY : array_tests/fast
+
+#=============================================================================
+# Target rules for targets named tire
+
+# Build rule for target.
+tire: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tire
+.PHONY : tire
+
+# fast build rule for target.
+tire/fast:
+	$(MAKE) $(MAKESILENT) -f Tire/CMakeFiles/tire.dir/build.make Tire/CMakeFiles/tire.dir/build
+.PHONY : tire/fast
+
+#=============================================================================
+# Target rules for targets named tire_tests
+
+# Build rule for target.
+tire_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tire_tests
+.PHONY : tire_tests
+
+# fast build rule for target.
+tire_tests/fast:
+	$(MAKE) $(MAKESILENT) -f Tire/CMakeFiles/tire_tests.dir/build.make Tire/CMakeFiles/tire_tests.dir/build
+.PHONY : tire_tests/fast
+
 minisim.o: minisim.cpp.o
 .PHONY : minisim.o
 
@@ -592,7 +670,13 @@ help:
 	@echo "... NightlyUpdate"
 	@echo "... Catch2"
 	@echo "... Catch2WithMain"
+	@echo "... aerobody"
+	@echo "... aerobody_tests"
+	@echo "... array"
+	@echo "... array_tests"
 	@echo "... minisim"
+	@echo "... tire"
+	@echo "... tire_tests"
 	@echo "... minisim.o"
 	@echo "... minisim.i"
 	@echo "... minisim.s"

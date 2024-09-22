@@ -27,4 +27,9 @@ include(cmake/catch2.cmake) # Testing
 include(CTest)
 include(Catch)
 
+add_subdirectory(Aerobody)
+add_subdirectory(Array)
+add_subdirectory(Tire)
+
+enable_testing()
 add_executable(minisim minisim.cpp)
