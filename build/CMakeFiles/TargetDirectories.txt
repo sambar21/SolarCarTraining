@@ -53,3 +53,8 @@
 /Users/samba/Documents/minisim/build/Tire/CMakeFiles/test.dir
 /Users/samba/Documents/minisim/build/Tire/CMakeFiles/edit_cache.dir
 /Users/samba/Documents/minisim/build/Tire/CMakeFiles/rebuild_cache.dir
+/Users/samba/Documents/minisim/build/Motor/CMakeFiles/motor.dir
+/Users/samba/Documents/minisim/build/Motor/CMakeFiles/motor_tests.dir
+/Users/samba/Documents/minisim/build/Motor/CMakeFiles/test.dir
+/Users/samba/Documents/minisim/build/Motor/CMakeFiles/edit_cache.dir
+/Users/samba/Documents/minisim/build/Motor/CMakeFiles/rebuild_cache.dir

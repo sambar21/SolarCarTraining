@@ -30,6 +30,6 @@ include(Catch)
 add_subdirectory(Aerobody)
 add_subdirectory(Array)
 add_subdirectory(Tire)
-
+add_subdirectory(Motor)
 enable_testing()
 add_executable(minisim minisim.cpp)

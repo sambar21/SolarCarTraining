@@ -67,12 +67,14 @@ all: CMakeFiles/minisim.dir/all
 all: Aerobody/all
 all: Array/all
 all: Tire/all
+all: Motor/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: Aerobody/preinstall
 preinstall: Array/preinstall
 preinstall: Tire/preinstall
+preinstall: Motor/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -109,6 +111,7 @@ clean: _deps/catch2-build/clean
 clean: Aerobody/clean
 clean: Array/clean
 clean: Tire/clean
+clean: Motor/clean
 .PHONY : clean
 
 #=============================================================================
@@ -144,6 +147,23 @@ Array/preinstall:
 Array/clean: Array/CMakeFiles/array.dir/clean
 Array/clean: Array/CMakeFiles/array_tests.dir/clean
 .PHONY : Array/clean
+
+#=============================================================================
+# Directory level rules for directory Motor
+
+# Recursive "all" directory target.
+Motor/all: Motor/CMakeFiles/motor.dir/all
+Motor/all: Motor/CMakeFiles/motor_tests.dir/all
+.PHONY : Motor/all
+
+# Recursive "preinstall" directory target.
+Motor/preinstall:
+.PHONY : Motor/preinstall
+
+# Recursive "clean" directory target.
+Motor/clean: Motor/CMakeFiles/motor.dir/clean
+Motor/clean: Motor/CMakeFiles/motor_tests.dir/clean
+.PHONY : Motor/clean
 
 #=============================================================================
 # Directory level rules for directory Tire
@@ -929,7 +949,7 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 CMakeFiles/minisim.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minisim.dir/build.make CMakeFiles/minisim.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minisim.dir/build.make CMakeFiles/minisim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/samba/Documents/minisim/build/CMakeFiles --progress-num=96 "Built target minisim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/samba/Documents/minisim/build/CMakeFiles --progress-num=93 "Built target minisim"
 .PHONY : CMakeFiles/minisim.dir/all
 
 # Build rule for subdir invocation for target.
@@ -955,12 +975,12 @@ CMakeFiles/minisim.dir/clean:
 _deps/catch2-build/src/CMakeFiles/Catch2.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/catch2-build/src/CMakeFiles/Catch2.dir/build.make _deps/catch2-build/src/CMakeFiles/Catch2.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/catch2-build/src/CMakeFiles/Catch2.dir/build.make _deps/catch2-build/src/CMakeFiles/Catch2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/samba/Documents/minisim/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86 "Built target Catch2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/samba/Documents/minisim/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84 "Built target Catch2"
 .PHONY : _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/catch2-build/src/CMakeFiles/Catch2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samba/Documents/minisim/build/CMakeFiles 86
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samba/Documents/minisim/build/CMakeFiles 84
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samba/Documents/minisim/build/CMakeFiles 0
 .PHONY : _deps/catch2-build/src/CMakeFiles/Catch2.dir/rule
@@ -981,12 +1001,12 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/clean:
 _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/build.make _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/build.make _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/samba/Documents/minisim/build/CMakeFiles --progress-num=87,88 "Built target Catch2WithMain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/samba/Documents/minisim/build/CMakeFiles --progress-num=85 "Built target Catch2WithMain"
 .PHONY : _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samba/Documents/minisim/build/CMakeFiles 88
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samba/Documents/minisim/build/CMakeFiles 85
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samba/Documents/minisim/build/CMakeFiles 0
 .PHONY : _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/rule
@@ -1007,7 +1027,7 @@ _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/clean:
 Aerobody/CMakeFiles/aerobody.dir/all:
 	$(MAKE) $(MAKESILENT) -f Aerobody/CMakeFiles/aerobody.dir/build.make Aerobody/CMakeFiles/aerobody.dir/depend
 	$(MAKE) $(MAKESILENT) -f Aerobody/CMakeFiles/aerobody.dir/build.make Aerobody/CMakeFiles/aerobody.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/samba/Documents/minisim/build/CMakeFiles --progress-num=89,90 "Built target aerobody"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/samba/Documents/minisim/build/CMakeFiles --progress-num=86,87 "Built target aerobody"
 .PHONY : Aerobody/CMakeFiles/aerobody.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1035,12 +1055,12 @@ Aerobody/CMakeFiles/aerobody_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Ca
 Aerobody/CMakeFiles/aerobody_tests.dir/all: Aerobody/CMakeFiles/aerobody.dir/all
 	$(MAKE) $(MAKESILENT) -f Aerobody/CMakeFiles/aerobody_tests.dir/build.make Aerobody/CMakeFiles/aerobody_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f Aerobody/CMakeFiles/aerobody_tests.dir/build.make Aerobody/CMakeFiles/aerobody_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/samba/Documents/minisim/build/CMakeFiles --progress-num=91 "Built target aerobody_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/samba/Documents/minisim/build/CMakeFiles --progress-num=88 "Built target aerobody_tests"
 .PHONY : Aerobody/CMakeFiles/aerobody_tests.dir/all
 
 # Build rule for subdir invocation for target.
 Aerobody/CMakeFiles/aerobody_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samba/Documents/minisim/build/CMakeFiles 91
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samba/Documents/minisim/build/CMakeFiles 88
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Aerobody/CMakeFiles/aerobody_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samba/Documents/minisim/build/CMakeFiles 0
 .PHONY : Aerobody/CMakeFiles/aerobody_tests.dir/rule
@@ -1061,7 +1081,7 @@ Aerobody/CMakeFiles/aerobody_tests.dir/clean:
 Array/CMakeFiles/array.dir/all:
 	$(MAKE) $(MAKESILENT) -f Array/CMakeFiles/array.dir/build.make Array/CMakeFiles/array.dir/depend
 	$(MAKE) $(MAKESILENT) -f Array/CMakeFiles/array.dir/build.make Array/CMakeFiles/array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/samba/Documents/minisim/build/CMakeFiles --progress-num=92,93 "Built target array"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/samba/Documents/minisim/build/CMakeFiles --progress-num=89,90 "Built target array"
 .PHONY : Array/CMakeFiles/array.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1089,12 +1109,12 @@ Array/CMakeFiles/array_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2Wi
 Array/CMakeFiles/array_tests.dir/all: Array/CMakeFiles/array.dir/all
 	$(MAKE) $(MAKESILENT) -f Array/CMakeFiles/array_tests.dir/build.make Array/CMakeFiles/array_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f Array/CMakeFiles/array_tests.dir/build.make Array/CMakeFiles/array_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/samba/Documents/minisim/build/CMakeFiles --progress-num=94,95 "Built target array_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/samba/Documents/minisim/build/CMakeFiles --progress-num=91,92 "Built target array_tests"
 .PHONY : Array/CMakeFiles/array_tests.dir/all
 
 # Build rule for subdir invocation for target.
 Array/CMakeFiles/array_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samba/Documents/minisim/build/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samba/Documents/minisim/build/CMakeFiles 89
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Array/CMakeFiles/array_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samba/Documents/minisim/build/CMakeFiles 0
 .PHONY : Array/CMakeFiles/array_tests.dir/rule
@@ -1148,7 +1168,7 @@ Tire/CMakeFiles/tire_tests.dir/all: Tire/CMakeFiles/tire.dir/all
 
 # Build rule for subdir invocation for target.
 Tire/CMakeFiles/tire_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samba/Documents/minisim/build/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samba/Documents/minisim/build/CMakeFiles 89
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tire/CMakeFiles/tire_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samba/Documents/minisim/build/CMakeFiles 0
 .PHONY : Tire/CMakeFiles/tire_tests.dir/rule
@@ -1161,6 +1181,60 @@ tire_tests: Tire/CMakeFiles/tire_tests.dir/rule
 Tire/CMakeFiles/tire_tests.dir/clean:
 	$(MAKE) $(MAKESILENT) -f Tire/CMakeFiles/tire_tests.dir/build.make Tire/CMakeFiles/tire_tests.dir/clean
 .PHONY : Tire/CMakeFiles/tire_tests.dir/clean
+
+#=============================================================================
+# Target rules for target Motor/CMakeFiles/motor.dir
+
+# All Build rule for target.
+Motor/CMakeFiles/motor.dir/all:
+	$(MAKE) $(MAKESILENT) -f Motor/CMakeFiles/motor.dir/build.make Motor/CMakeFiles/motor.dir/depend
+	$(MAKE) $(MAKESILENT) -f Motor/CMakeFiles/motor.dir/build.make Motor/CMakeFiles/motor.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/samba/Documents/minisim/build/CMakeFiles --progress-num=94,95 "Built target motor"
+.PHONY : Motor/CMakeFiles/motor.dir/all
+
+# Build rule for subdir invocation for target.
+Motor/CMakeFiles/motor.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samba/Documents/minisim/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Motor/CMakeFiles/motor.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samba/Documents/minisim/build/CMakeFiles 0
+.PHONY : Motor/CMakeFiles/motor.dir/rule
+
+# Convenience name for target.
+motor: Motor/CMakeFiles/motor.dir/rule
+.PHONY : motor
+
+# clean rule for target.
+Motor/CMakeFiles/motor.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Motor/CMakeFiles/motor.dir/build.make Motor/CMakeFiles/motor.dir/clean
+.PHONY : Motor/CMakeFiles/motor.dir/clean
+
+#=============================================================================
+# Target rules for target Motor/CMakeFiles/motor_tests.dir
+
+# All Build rule for target.
+Motor/CMakeFiles/motor_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
+Motor/CMakeFiles/motor_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all
+Motor/CMakeFiles/motor_tests.dir/all: Motor/CMakeFiles/motor.dir/all
+	$(MAKE) $(MAKESILENT) -f Motor/CMakeFiles/motor_tests.dir/build.make Motor/CMakeFiles/motor_tests.dir/depend
+	$(MAKE) $(MAKESILENT) -f Motor/CMakeFiles/motor_tests.dir/build.make Motor/CMakeFiles/motor_tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/samba/Documents/minisim/build/CMakeFiles --progress-num=96 "Built target motor_tests"
+.PHONY : Motor/CMakeFiles/motor_tests.dir/all
+
+# Build rule for subdir invocation for target.
+Motor/CMakeFiles/motor_tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samba/Documents/minisim/build/CMakeFiles 88
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Motor/CMakeFiles/motor_tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samba/Documents/minisim/build/CMakeFiles 0
+.PHONY : Motor/CMakeFiles/motor_tests.dir/rule
+
+# Convenience name for target.
+motor_tests: Motor/CMakeFiles/motor_tests.dir/rule
+.PHONY : motor_tests
+
+# clean rule for target.
+Motor/CMakeFiles/motor_tests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Motor/CMakeFiles/motor_tests.dir/build.make Motor/CMakeFiles/motor_tests.dir/clean
+.PHONY : Motor/CMakeFiles/motor_tests.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

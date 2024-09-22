@@ -607,6 +607,32 @@ tire_tests/fast:
 	$(MAKE) $(MAKESILENT) -f Tire/CMakeFiles/tire_tests.dir/build.make Tire/CMakeFiles/tire_tests.dir/build
 .PHONY : tire_tests/fast
 
+#=============================================================================
+# Target rules for targets named motor
+
+# Build rule for target.
+motor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 motor
+.PHONY : motor
+
+# fast build rule for target.
+motor/fast:
+	$(MAKE) $(MAKESILENT) -f Motor/CMakeFiles/motor.dir/build.make Motor/CMakeFiles/motor.dir/build
+.PHONY : motor/fast
+
+#=============================================================================
+# Target rules for targets named motor_tests
+
+# Build rule for target.
+motor_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 motor_tests
+.PHONY : motor_tests
+
+# fast build rule for target.
+motor_tests/fast:
+	$(MAKE) $(MAKESILENT) -f Motor/CMakeFiles/motor_tests.dir/build.make Motor/CMakeFiles/motor_tests.dir/build
+.PHONY : motor_tests/fast
+
 minisim.o: minisim.cpp.o
 .PHONY : minisim.o
 
@@ -675,6 +701,8 @@ help:
 	@echo "... array"
 	@echo "... array_tests"
 	@echo "... minisim"
+	@echo "... motor"
+	@echo "... motor_tests"
 	@echo "... tire"
 	@echo "... tire_tests"
 	@echo "... minisim.o"

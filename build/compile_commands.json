@@ -682,5 +682,17 @@
   "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /Users/samba/Documents/minisim/build/_deps/catch2-src/src/catch2/.. -isystem /Users/samba/Documents/minisim/build/_deps/catch2-build/generated-includes -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/tire_tests.dir/TireTests.cpp.o -c /Users/samba/Documents/minisim/Tire/TireTests.cpp",
   "file": "/Users/samba/Documents/minisim/Tire/TireTests.cpp",
   "output": "Tire/CMakeFiles/tire_tests.dir/TireTests.cpp.o"
+},
+{
+  "directory": "/Users/samba/Documents/minisim/build/Motor",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/motor.dir/Motor.cpp.o -c /Users/samba/Documents/minisim/Motor/Motor.cpp",
+  "file": "/Users/samba/Documents/minisim/Motor/Motor.cpp",
+  "output": "Motor/CMakeFiles/motor.dir/Motor.cpp.o"
+},
+{
+  "directory": "/Users/samba/Documents/minisim/build/Motor",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /Users/samba/Documents/minisim/build/_deps/catch2-src/src/catch2/.. -isystem /Users/samba/Documents/minisim/build/_deps/catch2-build/generated-includes -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/motor_tests.dir/MotorTests.cpp.o -c /Users/samba/Documents/minisim/Motor/MotorTests.cpp",
+  "file": "/Users/samba/Documents/minisim/Motor/MotorTests.cpp",
+  "output": "Motor/CMakeFiles/motor_tests.dir/MotorTests.cpp.o"
 }
 ]

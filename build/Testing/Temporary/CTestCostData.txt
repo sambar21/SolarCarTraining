@@ -159,13 +159,42 @@ Aerobody: 0 1
 Aerobody: 0 1
 Array: 0 1
 Tire: 0 0
-VelocityVector Constructors: from_cartesian_components 1 0.00562763
-VelocityVector Constructors: from_polar_components 1 0.00388583
-VelocityVector Utilities: get_magnitude 1 0.005416
-VelocityVector Utilities: get_heading 1 0.00550575
-VelocityVector Utilities: angle_between 1 0.00540979
-Aerobody: get_wind 1 0.00555425
-Aerobody: aerodynamic_drag 1 0.0139917
-Array: power_in 1 0.0187239
-Tire: rolling_resistance 1 0.875311
+VelocityVector 0 0
+VelocityVector 0 0
+VelocityVector 0 0
+VelocityVector 0 0
+VelocityVector 0 0
+Aerobody: 0 1
+Aerobody: 0 1
+Array: 0 1
+Tire: 0 1
+VelocityVector 0 0
+VelocityVector 0 0
+VelocityVector 0 0
+VelocityVector 0 0
+VelocityVector 0 0
+Aerobody: 0 1
+Aerobody: 0 1
+Array: 0 1
+Tire: 0 1
+VelocityVector 0 0
+VelocityVector 0 0
+VelocityVector 0 0
+VelocityVector 0 0
+VelocityVector 0 0
+Aerobody: 0 1
+Aerobody: 0 1
+Array: 0 1
+Tire: 0 1
+Motor: 0 0
+VelocityVector Constructors: from_cartesian_components 1 0.00988742
+VelocityVector Constructors: from_polar_components 1 0.00404412
+VelocityVector Utilities: get_magnitude 1 0.00674767
+VelocityVector Utilities: get_heading 1 0.00584288
+VelocityVector Utilities: angle_between 1 0.00555738
+Aerobody: get_wind 1 0.00596063
+Aerobody: aerodynamic_drag 1 0.0139277
+Array: power_in 1 0.0185998
+Tire: rolling_resistance 1 0.881447
+Motor: power_consumed 1 0.879779
 ---
