@@ -1,0 +1,3 @@
+/Users/samba/Documents/minisim/src/build/CMakeFiles/minisim.dir
+/Users/samba/Documents/minisim/src/build/CMakeFiles/edit_cache.dir
+/Users/samba/Documents/minisim/src/build/CMakeFiles/rebuild_cache.dir
