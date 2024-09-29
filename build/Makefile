@@ -633,6 +633,32 @@ motor_tests/fast:
 	$(MAKE) $(MAKESILENT) -f Motor/CMakeFiles/motor_tests.dir/build.make Motor/CMakeFiles/motor_tests.dir/build
 .PHONY : motor_tests/fast
 
+#=============================================================================
+# Target rules for targets named battery
+
+# Build rule for target.
+battery: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battery
+.PHONY : battery
+
+# fast build rule for target.
+battery/fast:
+	$(MAKE) $(MAKESILENT) -f Battery/CMakeFiles/battery.dir/build.make Battery/CMakeFiles/battery.dir/build
+.PHONY : battery/fast
+
+#=============================================================================
+# Target rules for targets named battery_tests
+
+# Build rule for target.
+battery_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battery_tests
+.PHONY : battery_tests
+
+# fast build rule for target.
+battery_tests/fast:
+	$(MAKE) $(MAKESILENT) -f Battery/CMakeFiles/battery_tests.dir/build.make Battery/CMakeFiles/battery_tests.dir/build
+.PHONY : battery_tests/fast
+
 minisim.o: minisim.cpp.o
 .PHONY : minisim.o
 
@@ -700,6 +726,8 @@ help:
 	@echo "... aerobody_tests"
 	@echo "... array"
 	@echo "... array_tests"
+	@echo "... battery"
+	@echo "... battery_tests"
 	@echo "... minisim"
 	@echo "... motor"
 	@echo "... motor_tests"

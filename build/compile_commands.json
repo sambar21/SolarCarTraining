@@ -694,5 +694,23 @@
   "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /Users/samba/Documents/minisim/build/_deps/catch2-src/src/catch2/.. -isystem /Users/samba/Documents/minisim/build/_deps/catch2-build/generated-includes -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/motor_tests.dir/MotorTests.cpp.o -c /Users/samba/Documents/minisim/Motor/MotorTests.cpp",
   "file": "/Users/samba/Documents/minisim/Motor/MotorTests.cpp",
   "output": "Motor/CMakeFiles/motor_tests.dir/MotorTests.cpp.o"
+},
+{
+  "directory": "/Users/samba/Documents/minisim/build/Battery",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/battery.dir/Battery.cpp.o -c /Users/samba/Documents/minisim/Battery/Battery.cpp",
+  "file": "/Users/samba/Documents/minisim/Battery/Battery.cpp",
+  "output": "Battery/CMakeFiles/battery.dir/Battery.cpp.o"
+},
+{
+  "directory": "/Users/samba/Documents/minisim/build/Battery",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/battery.dir/BatteryState.cpp.o -c /Users/samba/Documents/minisim/Battery/BatteryState.cpp",
+  "file": "/Users/samba/Documents/minisim/Battery/BatteryState.cpp",
+  "output": "Battery/CMakeFiles/battery.dir/BatteryState.cpp.o"
+},
+{
+  "directory": "/Users/samba/Documents/minisim/build/Battery",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /Users/samba/Documents/minisim/build/_deps/catch2-src/src/catch2/.. -isystem /Users/samba/Documents/minisim/build/_deps/catch2-build/generated-includes -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/battery_tests.dir/BatteryTests.cpp.o -c /Users/samba/Documents/minisim/Battery/BatteryTests.cpp",
+  "file": "/Users/samba/Documents/minisim/Battery/BatteryTests.cpp",
+  "output": "Battery/CMakeFiles/battery_tests.dir/BatteryTests.cpp.o"
 }
 ]

@@ -31,5 +31,9 @@ add_subdirectory(Aerobody)
 add_subdirectory(Array)
 add_subdirectory(Tire)
 add_subdirectory(Motor)
+add_subdirectory(Battery)
+
+
+
 enable_testing()
 add_executable(minisim minisim.cpp)

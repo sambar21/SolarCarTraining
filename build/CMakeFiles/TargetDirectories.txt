@@ -58,3 +58,8 @@
 /Users/samba/Documents/minisim/build/Motor/CMakeFiles/test.dir
 /Users/samba/Documents/minisim/build/Motor/CMakeFiles/edit_cache.dir
 /Users/samba/Documents/minisim/build/Motor/CMakeFiles/rebuild_cache.dir
+/Users/samba/Documents/minisim/build/Battery/CMakeFiles/battery.dir
+/Users/samba/Documents/minisim/build/Battery/CMakeFiles/battery_tests.dir
+/Users/samba/Documents/minisim/build/Battery/CMakeFiles/test.dir
+/Users/samba/Documents/minisim/build/Battery/CMakeFiles/edit_cache.dir
+/Users/samba/Documents/minisim/build/Battery/CMakeFiles/rebuild_cache.dir

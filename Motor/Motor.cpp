@@ -13,5 +13,6 @@
         return((eddy_current_loss_coefficient * angular_speed) + hysteresis_loss) + (angular_speed * torque);
 
 
+
     }
 
