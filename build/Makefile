@@ -491,17 +491,69 @@ ContinuousSubmit/fast:
 .PHONY : ContinuousSubmit/fast
 
 #=============================================================================
-# Target rules for targets named minisim
+# Target rules for targets named alglib
 
 # Build rule for target.
-minisim: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 minisim
-.PHONY : minisim
+alglib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alglib
+.PHONY : alglib
 
 # fast build rule for target.
-minisim/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minisim.dir/build.make CMakeFiles/minisim.dir/build
-.PHONY : minisim/fast
+alglib/fast:
+	$(MAKE) $(MAKESILENT) -f external/alglib/CMakeFiles/alglib.dir/build.make external/alglib/CMakeFiles/alglib.dir/build
+.PHONY : alglib/fast
+
+#=============================================================================
+# Target rules for targets named csv
+
+# Build rule for target.
+csv: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 csv
+.PHONY : csv
+
+# fast build rule for target.
+csv/fast:
+	$(MAKE) $(MAKESILENT) -f external/csv/CMakeFiles/csv.dir/build.make external/csv/CMakeFiles/csv.dir/build
+.PHONY : csv/fast
+
+#=============================================================================
+# Target rules for targets named date
+
+# Build rule for target.
+date: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 date
+.PHONY : date
+
+# fast build rule for target.
+date/fast:
+	$(MAKE) $(MAKESILENT) -f external/date/CMakeFiles/date.dir/build.make external/date/CMakeFiles/date.dir/build
+.PHONY : date/fast
+
+#=============================================================================
+# Target rules for targets named solpos
+
+# Build rule for target.
+solpos: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 solpos
+.PHONY : solpos
+
+# fast build rule for target.
+solpos/fast:
+	$(MAKE) $(MAKESILENT) -f external/solpos/CMakeFiles/solpos.dir/build.make external/solpos/CMakeFiles/solpos.dir/build
+.PHONY : solpos/fast
+
+#=============================================================================
+# Target rules for targets named tomlplusplus
+
+# Build rule for target.
+tomlplusplus: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tomlplusplus
+.PHONY : tomlplusplus
+
+# fast build rule for target.
+tomlplusplus/fast:
+	$(MAKE) $(MAKESILENT) -f external/toml/CMakeFiles/tomlplusplus.dir/build.make external/toml/CMakeFiles/tomlplusplus.dir/build
+.PHONY : tomlplusplus/fast
 
 #=============================================================================
 # Target rules for targets named Catch2
@@ -530,6 +582,136 @@ Catch2WithMain/fast:
 .PHONY : Catch2WithMain/fast
 
 #=============================================================================
+# Target rules for targets named minisim
+
+# Build rule for target.
+minisim: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 minisim
+.PHONY : minisim
+
+# fast build rule for target.
+minisim/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/minisim.dir/build.make src/CMakeFiles/minisim.dir/build
+.PHONY : minisim/fast
+
+#=============================================================================
+# Target rules for targets named MinisimLink
+
+# Build rule for target.
+MinisimLink: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MinisimLink
+.PHONY : MinisimLink
+
+# fast build rule for target.
+MinisimLink/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MinisimLink.dir/build.make src/CMakeFiles/MinisimLink.dir/build
+.PHONY : MinisimLink/fast
+
+#=============================================================================
+# Target rules for targets named config_file
+
+# Build rule for target.
+config_file: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 config_file
+.PHONY : config_file
+
+# fast build rule for target.
+config_file/fast:
+	$(MAKE) $(MAKESILENT) -f src/ConfigFile/CMakeFiles/config_file.dir/build.make src/ConfigFile/CMakeFiles/config_file.dir/build
+.PHONY : config_file/fast
+
+#=============================================================================
+# Target rules for targets named dataclasses
+
+# Build rule for target.
+dataclasses: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dataclasses
+.PHONY : dataclasses
+
+# fast build rule for target.
+dataclasses/fast:
+	$(MAKE) $(MAKESILENT) -f src/DataClasses/CMakeFiles/dataclasses.dir/build.make src/DataClasses/CMakeFiles/dataclasses.dir/build
+.PHONY : dataclasses/fast
+
+#=============================================================================
+# Target rules for targets named raceschedule
+
+# Build rule for target.
+raceschedule: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 raceschedule
+.PHONY : raceschedule
+
+# fast build rule for target.
+raceschedule/fast:
+	$(MAKE) $(MAKESILENT) -f src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/build.make src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/build
+.PHONY : raceschedule/fast
+
+#=============================================================================
+# Target rules for targets named weather_stations
+
+# Build rule for target.
+weather_stations: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 weather_stations
+.PHONY : weather_stations
+
+# fast build rule for target.
+weather_stations/fast:
+	$(MAKE) $(MAKESILENT) -f src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/build.make src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/build
+.PHONY : weather_stations/fast
+
+#=============================================================================
+# Target rules for targets named route
+
+# Build rule for target.
+route: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 route
+.PHONY : route
+
+# fast build rule for target.
+route/fast:
+	$(MAKE) $(MAKESILENT) -f src/RaceConfig/Route/CMakeFiles/route.dir/build.make src/RaceConfig/Route/CMakeFiles/route.dir/build
+.PHONY : route/fast
+
+#=============================================================================
+# Target rules for targets named weather
+
+# Build rule for target.
+weather: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 weather
+.PHONY : weather
+
+# fast build rule for target.
+weather/fast:
+	$(MAKE) $(MAKESILENT) -f src/RaceConfig/Weather/CMakeFiles/weather.dir/build.make src/RaceConfig/Weather/CMakeFiles/weather.dir/build
+.PHONY : weather/fast
+
+#=============================================================================
+# Target rules for targets named solar_position
+
+# Build rule for target.
+solar_position: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 solar_position
+.PHONY : solar_position
+
+# fast build rule for target.
+solar_position/fast:
+	$(MAKE) $(MAKESILENT) -f src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/build.make src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/build
+.PHONY : solar_position/fast
+
+#=============================================================================
+# Target rules for targets named solarcar
+
+# Build rule for target.
+solarcar: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 solarcar
+.PHONY : solarcar
+
+# fast build rule for target.
+solarcar/fast:
+	$(MAKE) $(MAKESILENT) -f src/SolarCar/CMakeFiles/solarcar.dir/build.make src/SolarCar/CMakeFiles/solarcar.dir/build
+.PHONY : solarcar/fast
+
+#=============================================================================
 # Target rules for targets named aerobody
 
 # Build rule for target.
@@ -539,7 +721,7 @@ aerobody: cmake_check_build_system
 
 # fast build rule for target.
 aerobody/fast:
-	$(MAKE) $(MAKESILENT) -f Aerobody/CMakeFiles/aerobody.dir/build.make Aerobody/CMakeFiles/aerobody.dir/build
+	$(MAKE) $(MAKESILENT) -f src/SolarCar/Aerobody/CMakeFiles/aerobody.dir/build.make src/SolarCar/Aerobody/CMakeFiles/aerobody.dir/build
 .PHONY : aerobody/fast
 
 #=============================================================================
@@ -552,7 +734,7 @@ aerobody_tests: cmake_check_build_system
 
 # fast build rule for target.
 aerobody_tests/fast:
-	$(MAKE) $(MAKESILENT) -f Aerobody/CMakeFiles/aerobody_tests.dir/build.make Aerobody/CMakeFiles/aerobody_tests.dir/build
+	$(MAKE) $(MAKESILENT) -f src/SolarCar/Aerobody/CMakeFiles/aerobody_tests.dir/build.make src/SolarCar/Aerobody/CMakeFiles/aerobody_tests.dir/build
 .PHONY : aerobody_tests/fast
 
 #=============================================================================
@@ -565,7 +747,7 @@ array: cmake_check_build_system
 
 # fast build rule for target.
 array/fast:
-	$(MAKE) $(MAKESILENT) -f Array/CMakeFiles/array.dir/build.make Array/CMakeFiles/array.dir/build
+	$(MAKE) $(MAKESILENT) -f src/SolarCar/Array/CMakeFiles/array.dir/build.make src/SolarCar/Array/CMakeFiles/array.dir/build
 .PHONY : array/fast
 
 #=============================================================================
@@ -578,60 +760,8 @@ array_tests: cmake_check_build_system
 
 # fast build rule for target.
 array_tests/fast:
-	$(MAKE) $(MAKESILENT) -f Array/CMakeFiles/array_tests.dir/build.make Array/CMakeFiles/array_tests.dir/build
+	$(MAKE) $(MAKESILENT) -f src/SolarCar/Array/CMakeFiles/array_tests.dir/build.make src/SolarCar/Array/CMakeFiles/array_tests.dir/build
 .PHONY : array_tests/fast
-
-#=============================================================================
-# Target rules for targets named tire
-
-# Build rule for target.
-tire: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tire
-.PHONY : tire
-
-# fast build rule for target.
-tire/fast:
-	$(MAKE) $(MAKESILENT) -f Tire/CMakeFiles/tire.dir/build.make Tire/CMakeFiles/tire.dir/build
-.PHONY : tire/fast
-
-#=============================================================================
-# Target rules for targets named tire_tests
-
-# Build rule for target.
-tire_tests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tire_tests
-.PHONY : tire_tests
-
-# fast build rule for target.
-tire_tests/fast:
-	$(MAKE) $(MAKESILENT) -f Tire/CMakeFiles/tire_tests.dir/build.make Tire/CMakeFiles/tire_tests.dir/build
-.PHONY : tire_tests/fast
-
-#=============================================================================
-# Target rules for targets named motor
-
-# Build rule for target.
-motor: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 motor
-.PHONY : motor
-
-# fast build rule for target.
-motor/fast:
-	$(MAKE) $(MAKESILENT) -f Motor/CMakeFiles/motor.dir/build.make Motor/CMakeFiles/motor.dir/build
-.PHONY : motor/fast
-
-#=============================================================================
-# Target rules for targets named motor_tests
-
-# Build rule for target.
-motor_tests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 motor_tests
-.PHONY : motor_tests
-
-# fast build rule for target.
-motor_tests/fast:
-	$(MAKE) $(MAKESILENT) -f Motor/CMakeFiles/motor_tests.dir/build.make Motor/CMakeFiles/motor_tests.dir/build
-.PHONY : motor_tests/fast
 
 #=============================================================================
 # Target rules for targets named battery
@@ -643,7 +773,7 @@ battery: cmake_check_build_system
 
 # fast build rule for target.
 battery/fast:
-	$(MAKE) $(MAKESILENT) -f Battery/CMakeFiles/battery.dir/build.make Battery/CMakeFiles/battery.dir/build
+	$(MAKE) $(MAKESILENT) -f src/SolarCar/Battery/CMakeFiles/battery.dir/build.make src/SolarCar/Battery/CMakeFiles/battery.dir/build
 .PHONY : battery/fast
 
 #=============================================================================
@@ -656,32 +786,151 @@ battery_tests: cmake_check_build_system
 
 # fast build rule for target.
 battery_tests/fast:
-	$(MAKE) $(MAKESILENT) -f Battery/CMakeFiles/battery_tests.dir/build.make Battery/CMakeFiles/battery_tests.dir/build
+	$(MAKE) $(MAKESILENT) -f src/SolarCar/Battery/CMakeFiles/battery_tests.dir/build.make src/SolarCar/Battery/CMakeFiles/battery_tests.dir/build
 .PHONY : battery_tests/fast
 
-minisim.o: minisim.cpp.o
-.PHONY : minisim.o
+#=============================================================================
+# Target rules for targets named motor
 
-# target to build an object file
-minisim.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minisim.dir/build.make CMakeFiles/minisim.dir/minisim.cpp.o
-.PHONY : minisim.cpp.o
+# Build rule for target.
+motor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 motor
+.PHONY : motor
 
-minisim.i: minisim.cpp.i
-.PHONY : minisim.i
+# fast build rule for target.
+motor/fast:
+	$(MAKE) $(MAKESILENT) -f src/SolarCar/Motor/CMakeFiles/motor.dir/build.make src/SolarCar/Motor/CMakeFiles/motor.dir/build
+.PHONY : motor/fast
 
-# target to preprocess a source file
-minisim.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minisim.dir/build.make CMakeFiles/minisim.dir/minisim.cpp.i
-.PHONY : minisim.cpp.i
+#=============================================================================
+# Target rules for targets named motor_tests
 
-minisim.s: minisim.cpp.s
-.PHONY : minisim.s
+# Build rule for target.
+motor_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 motor_tests
+.PHONY : motor_tests
 
-# target to generate assembly for a file
-minisim.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minisim.dir/build.make CMakeFiles/minisim.dir/minisim.cpp.s
-.PHONY : minisim.cpp.s
+# fast build rule for target.
+motor_tests/fast:
+	$(MAKE) $(MAKESILENT) -f src/SolarCar/Motor/CMakeFiles/motor_tests.dir/build.make src/SolarCar/Motor/CMakeFiles/motor_tests.dir/build
+.PHONY : motor_tests/fast
+
+#=============================================================================
+# Target rules for targets named tire
+
+# Build rule for target.
+tire: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tire
+.PHONY : tire
+
+# fast build rule for target.
+tire/fast:
+	$(MAKE) $(MAKESILENT) -f src/SolarCar/Tire/CMakeFiles/tire.dir/build.make src/SolarCar/Tire/CMakeFiles/tire.dir/build
+.PHONY : tire/fast
+
+#=============================================================================
+# Target rules for targets named tire_tests
+
+# Build rule for target.
+tire_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tire_tests
+.PHONY : tire_tests
+
+# fast build rule for target.
+tire_tests/fast:
+	$(MAKE) $(MAKESILENT) -f src/SolarCar/Tire/CMakeFiles/tire_tests.dir/build.make src/SolarCar/Tire/CMakeFiles/tire_tests.dir/build
+.PHONY : tire_tests/fast
+
+#=============================================================================
+# Target rules for targets named conversions
+
+# Build rule for target.
+conversions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 conversions
+.PHONY : conversions
+
+# fast build rule for target.
+conversions/fast:
+	$(MAKE) $(MAKESILENT) -f src/Tools/CMakeFiles/conversions.dir/build.make src/Tools/CMakeFiles/conversions.dir/build
+.PHONY : conversions/fast
+
+#=============================================================================
+# Target rules for targets named physical_constants
+
+# Build rule for target.
+physical_constants: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 physical_constants
+.PHONY : physical_constants
+
+# fast build rule for target.
+physical_constants/fast:
+	$(MAKE) $(MAKESILENT) -f src/Tools/CMakeFiles/physical_constants.dir/build.make src/Tools/CMakeFiles/physical_constants.dir/build
+.PHONY : physical_constants/fast
+
+#=============================================================================
+# Target rules for targets named root_tool
+
+# Build rule for target.
+root_tool: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 root_tool
+.PHONY : root_tool
+
+# fast build rule for target.
+root_tool/fast:
+	$(MAKE) $(MAKESILENT) -f src/Tools/CMakeFiles/root_tool.dir/build.make src/Tools/CMakeFiles/root_tool.dir/build
+.PHONY : root_tool/fast
+
+#=============================================================================
+# Target rules for targets named file_tools
+
+# Build rule for target.
+file_tools: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 file_tools
+.PHONY : file_tools
+
+# fast build rule for target.
+file_tools/fast:
+	$(MAKE) $(MAKESILENT) -f src/Tools/CMakeFiles/file_tools.dir/build.make src/Tools/CMakeFiles/file_tools.dir/build
+.PHONY : file_tools/fast
+
+#=============================================================================
+# Target rules for targets named root_binary_search
+
+# Build rule for target.
+root_binary_search: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 root_binary_search
+.PHONY : root_binary_search
+
+# fast build rule for target.
+root_binary_search/fast:
+	$(MAKE) $(MAKESILENT) -f src/Tools/CMakeFiles/root_binary_search.dir/build.make src/Tools/CMakeFiles/root_binary_search.dir/build
+.PHONY : root_binary_search/fast
+
+#=============================================================================
+# Target rules for targets named parsing
+
+# Build rule for target.
+parsing: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 parsing
+.PHONY : parsing
+
+# fast build rule for target.
+parsing/fast:
+	$(MAKE) $(MAKESILENT) -f src/Tools/CMakeFiles/parsing.dir/build.make src/Tools/CMakeFiles/parsing.dir/build
+.PHONY : parsing/fast
+
+#=============================================================================
+# Target rules for targets named time_tools
+
+# Build rule for target.
+time_tools: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 time_tools
+.PHONY : time_tools
+
+# fast build rule for target.
+time_tools/fast:
+	$(MAKE) $(MAKESILENT) -f src/Tools/CMakeFiles/time_tools.dir/build.make src/Tools/CMakeFiles/time_tools.dir/build
+.PHONY : time_tools/fast
 
 # Help Target
 help:
@@ -710,6 +959,7 @@ help:
 	@echo "... ExperimentalSubmit"
 	@echo "... ExperimentalTest"
 	@echo "... ExperimentalUpdate"
+	@echo "... MinisimLink"
 	@echo "... Nightly"
 	@echo "... NightlyBuild"
 	@echo "... NightlyConfigure"
@@ -724,18 +974,35 @@ help:
 	@echo "... Catch2WithMain"
 	@echo "... aerobody"
 	@echo "... aerobody_tests"
+	@echo "... alglib"
 	@echo "... array"
 	@echo "... array_tests"
 	@echo "... battery"
 	@echo "... battery_tests"
+	@echo "... config_file"
+	@echo "... conversions"
+	@echo "... csv"
+	@echo "... dataclasses"
+	@echo "... date"
+	@echo "... file_tools"
 	@echo "... minisim"
 	@echo "... motor"
 	@echo "... motor_tests"
+	@echo "... parsing"
+	@echo "... physical_constants"
+	@echo "... raceschedule"
+	@echo "... root_binary_search"
+	@echo "... root_tool"
+	@echo "... route"
+	@echo "... solar_position"
+	@echo "... solarcar"
+	@echo "... solpos"
+	@echo "... time_tools"
 	@echo "... tire"
 	@echo "... tire_tests"
-	@echo "... minisim.o"
-	@echo "... minisim.i"
-	@echo "... minisim.s"
+	@echo "... tomlplusplus"
+	@echo "... weather"
+	@echo "... weather_stations"
 .PHONY : help
 
 

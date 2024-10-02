@@ -93,8 +93,8 @@ motor_tests_EXTERNAL_OBJECTS =
 Motor/motor_tests: Motor/CMakeFiles/motor_tests.dir/MotorTests.cpp.o
 Motor/motor_tests: Motor/CMakeFiles/motor_tests.dir/build.make
 Motor/motor_tests: Motor/libmotor.a
-Motor/motor_tests: _deps/catch2-build/src/libCatch2Maind.a
-Motor/motor_tests: _deps/catch2-build/src/libCatch2d.a
+Motor/motor_tests: _deps/catch2-build/src/libCatch2Main.a
+Motor/motor_tests: _deps/catch2-build/src/libCatch2.a
 Motor/motor_tests: Motor/CMakeFiles/motor_tests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/samba/Documents/minisim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable motor_tests"
 	cd /Users/samba/Documents/minisim/build/Motor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/motor_tests.dir/link.txt --verbose=$(VERBOSE)

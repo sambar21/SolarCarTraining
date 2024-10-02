@@ -93,8 +93,8 @@ aerobody_tests_EXTERNAL_OBJECTS =
 Aerobody/aerobody_tests: Aerobody/CMakeFiles/aerobody_tests.dir/AerobodyTests.cpp.o
 Aerobody/aerobody_tests: Aerobody/CMakeFiles/aerobody_tests.dir/build.make
 Aerobody/aerobody_tests: Aerobody/libaerobody.a
-Aerobody/aerobody_tests: _deps/catch2-build/src/libCatch2Maind.a
-Aerobody/aerobody_tests: _deps/catch2-build/src/libCatch2d.a
+Aerobody/aerobody_tests: _deps/catch2-build/src/libCatch2Main.a
+Aerobody/aerobody_tests: _deps/catch2-build/src/libCatch2.a
 Aerobody/aerobody_tests: Aerobody/CMakeFiles/aerobody_tests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/samba/Documents/minisim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable aerobody_tests"
 	cd /Users/samba/Documents/minisim/build/Aerobody && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aerobody_tests.dir/link.txt --verbose=$(VERBOSE)

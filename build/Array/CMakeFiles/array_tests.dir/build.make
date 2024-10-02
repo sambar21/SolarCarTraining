@@ -93,8 +93,8 @@ array_tests_EXTERNAL_OBJECTS =
 Array/array_tests: Array/CMakeFiles/array_tests.dir/ArrayTests.cpp.o
 Array/array_tests: Array/CMakeFiles/array_tests.dir/build.make
 Array/array_tests: Array/libarray.a
-Array/array_tests: _deps/catch2-build/src/libCatch2Maind.a
-Array/array_tests: _deps/catch2-build/src/libCatch2d.a
+Array/array_tests: _deps/catch2-build/src/libCatch2Main.a
+Array/array_tests: _deps/catch2-build/src/libCatch2.a
 Array/array_tests: Array/CMakeFiles/array_tests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/samba/Documents/minisim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable array_tests"
 	cd /Users/samba/Documents/minisim/build/Array && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/array_tests.dir/link.txt --verbose=$(VERBOSE)

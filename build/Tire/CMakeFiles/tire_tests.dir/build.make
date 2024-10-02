@@ -93,8 +93,8 @@ tire_tests_EXTERNAL_OBJECTS =
 Tire/tire_tests: Tire/CMakeFiles/tire_tests.dir/TireTests.cpp.o
 Tire/tire_tests: Tire/CMakeFiles/tire_tests.dir/build.make
 Tire/tire_tests: Tire/libtire.a
-Tire/tire_tests: _deps/catch2-build/src/libCatch2Maind.a
-Tire/tire_tests: _deps/catch2-build/src/libCatch2d.a
+Tire/tire_tests: _deps/catch2-build/src/libCatch2Main.a
+Tire/tire_tests: _deps/catch2-build/src/libCatch2.a
 Tire/tire_tests: Tire/CMakeFiles/tire_tests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/samba/Documents/minisim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable tire_tests"
 	cd /Users/samba/Documents/minisim/build/Tire && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tire_tests.dir/link.txt --verbose=$(VERBOSE)

@@ -93,8 +93,8 @@ battery_tests_EXTERNAL_OBJECTS =
 Battery/battery_tests: Battery/CMakeFiles/battery_tests.dir/BatteryTests.cpp.o
 Battery/battery_tests: Battery/CMakeFiles/battery_tests.dir/build.make
 Battery/battery_tests: Battery/libbattery.a
-Battery/battery_tests: _deps/catch2-build/src/libCatch2Maind.a
-Battery/battery_tests: _deps/catch2-build/src/libCatch2d.a
+Battery/battery_tests: _deps/catch2-build/src/libCatch2Main.a
+Battery/battery_tests: _deps/catch2-build/src/libCatch2.a
 Battery/battery_tests: Battery/CMakeFiles/battery_tests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/samba/Documents/minisim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable battery_tests"
 	cd /Users/samba/Documents/minisim/build/Battery && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/battery_tests.dir/link.txt --verbose=$(VERBOSE)

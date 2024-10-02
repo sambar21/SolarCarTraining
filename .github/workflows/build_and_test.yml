@@ -1,0 +1,128 @@
+name: Build and Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+env:
+  BUILD_TYPE: Release
+
+jobs:
+  build:
+    name: Build Simulator
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: true
+      matrix:
+        std: [20]
+        include:
+          - generator: Ninja
+          - build_type: Release
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: lukka/get-cmake@latest
+
+      - name: Cache CCache
+        uses: hendrikmuhs/ccache-action@v1.2
+
+      - name: Configure CMake
+        run: cmake -B ${{github.workspace}}/build -D CMAKE_BUILD_TYPE=${{env.BUILD_TYPE}} -D CMAKE_C_COMPILER_LAUNCHER=ccache -D CMAKE_CXX_COMPILER_LAUNCHER=ccache -G Ninja
+
+      - name: Build
+        run: cmake --build ${{github.workspace}}/build
+
+      - name: Upload Build Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: build
+          path: ${{github.workspace}}/build
+
+  ctest:
+    name: Run CTest
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Download Build Artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: build
+          path: build
+
+      - name: Fix Permissions
+        run: chmod -R u+x build/
+
+      - name: Run CTest
+        working-directory: build
+        run: ctest -j $(nproc) --output-on-failure
+
+  # valgrind:
+  #   name: Run Valgrind Tests
+  #   runs-on: ubuntu-latest
+  #   needs: build
+  #   steps:
+  #     - uses: actions/checkout@v3
+
+  #     - name: Download Build Artifacts
+  #       uses: actions/download-artifact@v3
+  #       with:
+  #         name: build
+  #         path: build
+
+  #     - name: Install Valgrind
+  #       run: sudo apt-get install -y valgrind
+
+  #     - name: Fix Permissions
+  #       run: chmod -R u+x build/
+
+  #     - name: Run Valgrind (Linear)
+  #       working-directory: .
+  #       run: |
+  #         valgrind --leak-check=full --error-exitcode=1 --log-file=valgrind-output.txt ./build/minisim -o linear -c data/Cars/mini-car.toml -w data/Weather/Australia/August/2021.csv -r data/Route/route.csv -t data/Stations/australia_stations.csv -s data/Schedule/August/Schedule2021.toml
+  #     - name: Check Valgrind output (Memory leaks)
+  #       working-directory: build
+  #       run: |
+  #         if grep -q "LEAK SUMMARY" valgrind-output.txt; then
+  #           if grep -q "definitely lost: 0 bytes" valgrind-output.txt &&
+  #             grep -q "indirectly lost: 0 bytes" valgrind-output.txt &&
+  #             grep -q "possibly lost: 0 bytes" valgrind-output.txt; then
+  #             echo "No memory leaks detected."
+  #           else
+  #             echo "Valgrind detected memory leaks."
+  #             cat valgrind-output.txt
+  #             exit 1  # Exit with a non-zero status to mark step as failed
+  #           fi
+  #         else
+  #           echo "No 'LEAK SUMMARY' found in Valgrind output."
+  #           exit 1  # Exit with a non-zero status to mark step as failed
+  #         fi
+
+  #     - name: Run Valgrind (Binary)
+  #       working-directory: .
+  #       run: |
+  #         valgrind --leak-check=full --error-exitcode=1 --log-file=valgrind-output.txt ./build/minisim -o binary -c data/Cars/mini-car.toml -w data/Weather/Australia/August/2021.csv -r data/Route/route.csv -t data/Stations/australia_stations.csv -s data/Schedule/August/Schedule2021.toml
+  #     - name: Check Valgrind output (Memory leaks)
+  #       working-directory: build
+  #       run: |
+  #         if grep -q "LEAK SUMMARY" valgrind-output.txt; then
+  #           if grep -q "definitely lost: 0 bytes" valgrind-output.txt &&
+  #             grep -q "indirectly lost: 0 bytes" valgrind-output.txt &&
+  #             grep -q "possibly lost: 0 bytes" valgrind-output.txt; then
+  #             echo "No memory leaks detected."
+  #           else
+  #             echo "Valgrind detected memory leaks."
+  #             cat valgrind-output.txt
+  #             exit 1  # Exit with a non-zero status to mark step as failed
+  #           fi
+  #         else
+  #           echo "No 'LEAK SUMMARY' found in Valgrind output."
+  #           exit 1  # Exit with a non-zero status to mark step as failed
+  #         fi
