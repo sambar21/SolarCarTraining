@@ -1,7 +1,7 @@
 #include "VelocityVector.h"
 #include <numbers>  // for π = std::numbers::pi
 #include <cmath>
-#include "SolarCar/Aerobody/VelocityVector.hpp"
+
 
 VelocityVector VelocityVector::from_cartesian_components(double north_south, double east_west) {
     return VelocityVector(north_south, east_west);

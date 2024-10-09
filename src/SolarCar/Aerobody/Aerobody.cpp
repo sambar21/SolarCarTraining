@@ -1,7 +1,7 @@
 #include <iostream>  
 #include <cmath>     
 #include <numbers>   
-#include "VelocityVector.hpp"
+#include "VelocityVector.h"
 #include "Aerobody.h"
 
 // f_drag = 0.5 * density * (air speed of vehicle)^2 * Area * drag coefficient

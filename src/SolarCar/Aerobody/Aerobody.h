@@ -1,7 +1,7 @@
 #ifndef MINISIM_AEROBODY_H
 #define MINISIM_AEROBODY_H
 
-#include "VelocityVector.hpp"
+#include "VelocityVector.h"
 
 class Aerobody {
    public:

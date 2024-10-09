@@ -138,3 +138,13 @@
 /Users/samba/Documents/minisim/build/src/Tools/CMakeFiles/test.dir
 /Users/samba/Documents/minisim/build/src/Tools/CMakeFiles/edit_cache.dir
 /Users/samba/Documents/minisim/build/src/Tools/CMakeFiles/rebuild_cache.dir
+/Users/samba/Documents/minisim/build/src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir
+/Users/samba/Documents/minisim/build/src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir
+/Users/samba/Documents/minisim/build/src/RaceSegmentRunner/CMakeFiles/test.dir
+/Users/samba/Documents/minisim/build/src/RaceSegmentRunner/CMakeFiles/edit_cache.dir
+/Users/samba/Documents/minisim/build/src/RaceSegmentRunner/CMakeFiles/rebuild_cache.dir
+/Users/samba/Documents/minisim/build/src/RaceRunner/CMakeFiles/racerunner.dir
+/Users/samba/Documents/minisim/build/src/RaceRunner/CMakeFiles/racerunner_tests.dir
+/Users/samba/Documents/minisim/build/src/RaceRunner/CMakeFiles/test.dir
+/Users/samba/Documents/minisim/build/src/RaceRunner/CMakeFiles/edit_cache.dir
+/Users/samba/Documents/minisim/build/src/RaceRunner/CMakeFiles/rebuild_cache.dir
