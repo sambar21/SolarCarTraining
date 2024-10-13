@@ -1,36 +1,44 @@
 #include "BinarySearchOptimizer.h"
-#include "src/RaceRunner/RaceRunner.h"  // Include RaceRunner for race time calculation
-#include <limits>
-#include <optional>
-#include <iostream>
+#include "RaceRunner/RaceRunner.h"
+#include <limits> 
+#include <algorithm> 
 
 BinarySearchOptimizer::BinarySearchOptimizer(
     const SolarCar& car, const Weather& weather, const Route& route, const RaceSchedule& schedule)
     : car(car), weather(weather), route(route), schedule(schedule) {}
 
 std::optional<Optimizer::OptimizationOutput> BinarySearchOptimizer::optimize_race() const {
-    double left = minimum_speed;
-    double right = maximum_speed;
+    double low = minimum_speed;
+    double high = maximum_speed;
     OptimizationOutput best_output{};
+    best_output.racetime = std::numeric_limits<double>::max();
+    bool found_any_valid_speed = false;
 
-    while (right - left > precision) {
-        double mid_speed = (left + right) / 2.0;
+    while (high - low > precision) {
+        double mid = (low + high) / 2;
+        auto race_time = RaceRunner::calculate_racetime(car, route, weather, schedule, mid);
 
-        std::optional<double> race_time = RaceRunner::calculate_racetime(car, route, weather, schedule, mid_speed);
-
-        if (!race_time.has_value()) {
-            right = mid_speed;  // If we run out of energy, reduce speed
-            continue;
-        }
-
-        best_output.speed = mid_speed;
-        best_output.racetime = race_time.value();
-
-        if (race_time.value() < best_output.racetime) {
-            right = mid_speed;  // Try to find a faster race time at a lower speed
+        if (race_time.has_value()) {
+            
+            found_any_valid_speed = true;
+            if (race_time.value() < best_output.racetime) {
+                best_output.speed = mid;
+                best_output.racetime = race_time.value();
+            }
+            low = mid; 
         } else {
-            left = mid_speed;
+            
+            high = mid;
         }
+    }
+
+    if (!found_any_valid_speed) {
+        return std::nullopt;
+    }
+
+    if (best_output.racetime == std::numeric_limits<double>::max()) {
+        best_output.speed = low;
+        best_output.racetime = RaceRunner::calculate_racetime(car, route, weather, schedule, low).value_or(std::numeric_limits<double>::max());
     }
 
     return best_output;

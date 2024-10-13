@@ -807,24 +807,84 @@ RaceSegmentRunner: 0 1
 RaceSegmentRunner: 0 1
 RaceSegmentRunner: 0 1
 RaceSegmentRunner: 0 1
-VelocityVector Constructors: from_cartesian_components 1 0.00974383
-VelocityVector Constructors: from_polar_components 1 0.00434225
-VelocityVector Utilities: get_magnitude 1 0.00676583
-VelocityVector Utilities: get_heading 1 0.00577792
-VelocityVector Utilities: angle_between 1 0.00649621
-Aerobody: get_wind 1 0.00612971
-Aerobody: aerodynamic_drag 1 0.014601
-Array: power_in 1 0.0193625
-BatteryState: update_energy_remaining 1 0.0199184
-Battery: state_of_charge 1 0.00609521
-Battery: current_voltage 1 0.00563017
-Battery: power_loss 1 0.0134582
-Motor: power_consumed 1 0.884573
-Tire: rolling_resistance 1 0.883326
-RaceSegmentRunner: calculate_resistive_force 1 0.00932662
-RaceSegmentRunner: calculate_power_out 1 0.00447154
-RaceSegmentRunner: calculate_power_in 1 0.00413562
-RaceSegmentRunner: calculate_power_net 1 0.0037055
-RaceSegmentRunner: calculate_static_charging_gain 1 1.74671
-RaceSegmentRunner: calculate_racetime 1 1.81325
+VelocityVector 0 0
+VelocityVector 0 0
+VelocityVector 0 0
+VelocityVector 0 0
+VelocityVector 0 0
+Aerobody: 0 1
+Aerobody: 0 1
+Array: 0 1
+BatteryState: 0 1
+Battery: 0 1
+Battery: 0 1
+Battery: 0 1
+Motor: 0 1
+Tire: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+VelocityVector 0 0
+VelocityVector 0 0
+VelocityVector 0 0
+VelocityVector 0 0
+VelocityVector 0 0
+Aerobody: 0 1
+Aerobody: 0 1
+Array: 0 1
+BatteryState: 0 1
+Battery: 0 1
+Battery: 0 1
+Battery: 0 1
+Motor: 0 1
+Tire: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+VelocityVector 0 0
+VelocityVector 0 0
+VelocityVector 0 0
+VelocityVector 0 0
+VelocityVector 0 0
+Aerobody: 0 1
+Aerobody: 0 1
+Array: 0 1
+BatteryState: 0 1
+Battery: 0 1
+Battery: 0 1
+Battery: 0 1
+Motor: 0 1
+Tire: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+VelocityVector Constructors: from_cartesian_components 1 0.00956121
+VelocityVector Constructors: from_polar_components 1 0.00426529
+VelocityVector Utilities: get_magnitude 1 0.00596408
+VelocityVector Utilities: get_heading 1 0.00625954
+VelocityVector Utilities: angle_between 1 0.00604221
+Aerobody: get_wind 1 0.00596779
+Aerobody: aerodynamic_drag 1 0.0143276
+Array: power_in 1 0.020062
+BatteryState: update_energy_remaining 1 0.0192511
+Battery: state_of_charge 1 0.00564896
+Battery: current_voltage 1 0.00541737
+Battery: power_loss 1 0.0136527
+Motor: power_consumed 1 0.885766
+Tire: rolling_resistance 1 0.881512
+RaceSegmentRunner: calculate_resistive_force 1 0.00951425
+RaceSegmentRunner: calculate_power_out 1 0.00439629
+RaceSegmentRunner: calculate_power_in 1 0.00395813
+RaceSegmentRunner: calculate_power_net 1 0.00431942
+RaceSegmentRunner: calculate_static_charging_gain 1 1.73541
+RaceSegmentRunner: calculate_racetime 1 1.81431
 ---

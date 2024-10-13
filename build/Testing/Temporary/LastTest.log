@@ -1,14 +1,14 @@
-Start testing: Oct 13 11:28 EDT
+Start testing: Oct 13 13:41 EDT
 ----------------------------------------------------------
 1/20 Testing: VelocityVector Constructors: from_cartesian_components
 1/20 Test: VelocityVector Constructors: from_cartesian_components
 Command: "/Users/samba/Documents/minisim/build/src/SolarCar/Aerobody/aerobody_tests" "VelocityVector Constructors: from_cartesian_components"
 Directory: /Users/samba/Documents/minisim/build/src/SolarCar/Aerobody
-"VelocityVector Constructors: from_cartesian_components" start time: Oct 13 11:28 EDT
+"VelocityVector Constructors: from_cartesian_components" start time: Oct 13 13:41 EDT
 Output:
 ----------------------------------------------------------
 Filters: "VelocityVector Constructors: from_cartesian_components"
-Randomness seeded to: 134076850
+Randomness seeded to: 655432939
 ===============================================================================
 All tests passed (44 assertions in 1 test case)
 
@@ -16,7 +16,7 @@ All tests passed (44 assertions in 1 test case)
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"VelocityVector Constructors: from_cartesian_components" end time: Oct 13 11:28 EDT
+"VelocityVector Constructors: from_cartesian_components" end time: Oct 13 13:41 EDT
 "VelocityVector Constructors: from_cartesian_components" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -24,11 +24,11 @@ Test Passed.
 2/20 Test: VelocityVector Constructors: from_polar_components
 Command: "/Users/samba/Documents/minisim/build/src/SolarCar/Aerobody/aerobody_tests" "VelocityVector Constructors: from_polar_components"
 Directory: /Users/samba/Documents/minisim/build/src/SolarCar/Aerobody
-"VelocityVector Constructors: from_polar_components" start time: Oct 13 11:28 EDT
+"VelocityVector Constructors: from_polar_components" start time: Oct 13 13:41 EDT
 Output:
 ----------------------------------------------------------
 Filters: "VelocityVector Constructors: from_polar_components"
-Randomness seeded to: 2343434153
+Randomness seeded to: 4093033377
 ===============================================================================
 All tests passed (44 assertions in 1 test case)
 
@@ -36,7 +36,7 @@ All tests passed (44 assertions in 1 test case)
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"VelocityVector Constructors: from_polar_components" end time: Oct 13 11:28 EDT
+"VelocityVector Constructors: from_polar_components" end time: Oct 13 13:41 EDT
 "VelocityVector Constructors: from_polar_components" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -44,11 +44,11 @@ Test Passed.
 3/20 Test: VelocityVector Utilities: get_magnitude
 Command: "/Users/samba/Documents/minisim/build/src/SolarCar/Aerobody/aerobody_tests" "VelocityVector Utilities: get_magnitude"
 Directory: /Users/samba/Documents/minisim/build/src/SolarCar/Aerobody
-"VelocityVector Utilities: get_magnitude" start time: Oct 13 11:28 EDT
+"VelocityVector Utilities: get_magnitude" start time: Oct 13 13:41 EDT
 Output:
 ----------------------------------------------------------
 Filters: "VelocityVector Utilities: get_magnitude"
-Randomness seeded to: 3516764617
+Randomness seeded to: 854027449
 ===============================================================================
 All tests passed (55 assertions in 1 test case)
 
@@ -56,7 +56,7 @@ All tests passed (55 assertions in 1 test case)
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"VelocityVector Utilities: get_magnitude" end time: Oct 13 11:28 EDT
+"VelocityVector Utilities: get_magnitude" end time: Oct 13 13:41 EDT
 "VelocityVector Utilities: get_magnitude" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -64,11 +64,11 @@ Test Passed.
 4/20 Test: VelocityVector Utilities: get_heading
 Command: "/Users/samba/Documents/minisim/build/src/SolarCar/Aerobody/aerobody_tests" "VelocityVector Utilities: get_heading"
 Directory: /Users/samba/Documents/minisim/build/src/SolarCar/Aerobody
-"VelocityVector Utilities: get_heading" start time: Oct 13 11:28 EDT
+"VelocityVector Utilities: get_heading" start time: Oct 13 13:41 EDT
 Output:
 ----------------------------------------------------------
 Filters: "VelocityVector Utilities: get_heading"
-Randomness seeded to: 1403445880
+Randomness seeded to: 3503418098
 ===============================================================================
 All tests passed (50 assertions in 1 test case)
 
@@ -76,7 +76,7 @@ All tests passed (50 assertions in 1 test case)
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"VelocityVector Utilities: get_heading" end time: Oct 13 11:28 EDT
+"VelocityVector Utilities: get_heading" end time: Oct 13 13:41 EDT
 "VelocityVector Utilities: get_heading" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -84,11 +84,11 @@ Test Passed.
 5/20 Test: VelocityVector Utilities: angle_between
 Command: "/Users/samba/Documents/minisim/build/src/SolarCar/Aerobody/aerobody_tests" "VelocityVector Utilities: angle_between"
 Directory: /Users/samba/Documents/minisim/build/src/SolarCar/Aerobody
-"VelocityVector Utilities: angle_between" start time: Oct 13 11:28 EDT
+"VelocityVector Utilities: angle_between" start time: Oct 13 13:41 EDT
 Output:
 ----------------------------------------------------------
 Filters: "VelocityVector Utilities: angle_between"
-Randomness seeded to: 1298982432
+Randomness seeded to: 1983285423
 ===============================================================================
 All tests passed (108 assertions in 1 test case)
 
@@ -96,7 +96,7 @@ All tests passed (108 assertions in 1 test case)
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"VelocityVector Utilities: angle_between" end time: Oct 13 11:28 EDT
+"VelocityVector Utilities: angle_between" end time: Oct 13 13:41 EDT
 "VelocityVector Utilities: angle_between" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -104,11 +104,11 @@ Test Passed.
 6/20 Test: Aerobody: get_wind
 Command: "/Users/samba/Documents/minisim/build/src/SolarCar/Aerobody/aerobody_tests" "Aerobody: get_wind"
 Directory: /Users/samba/Documents/minisim/build/src/SolarCar/Aerobody
-"Aerobody: get_wind" start time: Oct 13 11:28 EDT
+"Aerobody: get_wind" start time: Oct 13 13:41 EDT
 Output:
 ----------------------------------------------------------
 Filters: "Aerobody: get_wind"
-Randomness seeded to: 2063643791
+Randomness seeded to: 2350015857
 ===============================================================================
 All tests passed (109 assertions in 1 test case)
 
@@ -116,7 +116,7 @@ All tests passed (109 assertions in 1 test case)
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"Aerobody: get_wind" end time: Oct 13 11:28 EDT
+"Aerobody: get_wind" end time: Oct 13 13:41 EDT
 "Aerobody: get_wind" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -124,11 +124,11 @@ Test Passed.
 7/20 Test: Aerobody: aerodynamic_drag
 Command: "/Users/samba/Documents/minisim/build/src/SolarCar/Aerobody/aerobody_tests" "Aerobody: aerodynamic_drag"
 Directory: /Users/samba/Documents/minisim/build/src/SolarCar/Aerobody
-"Aerobody: aerodynamic_drag" start time: Oct 13 11:28 EDT
+"Aerobody: aerodynamic_drag" start time: Oct 13 13:41 EDT
 Output:
 ----------------------------------------------------------
 Filters: "Aerobody: aerodynamic_drag"
-Randomness seeded to: 2878497383
+Randomness seeded to: 1444873428
 ===============================================================================
 All tests passed (104 assertions in 1 test case)
 
@@ -136,7 +136,7 @@ All tests passed (104 assertions in 1 test case)
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"Aerobody: aerodynamic_drag" end time: Oct 13 11:28 EDT
+"Aerobody: aerodynamic_drag" end time: Oct 13 13:41 EDT
 "Aerobody: aerodynamic_drag" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -144,11 +144,11 @@ Test Passed.
 8/20 Test: Array: power_in
 Command: "/Users/samba/Documents/minisim/build/src/SolarCar/Array/array_tests" "Array: power_in"
 Directory: /Users/samba/Documents/minisim/build/src/SolarCar/Array
-"Array: power_in" start time: Oct 13 11:28 EDT
+"Array: power_in" start time: Oct 13 13:41 EDT
 Output:
 ----------------------------------------------------------
 Filters: "Array: power_in"
-Randomness seeded to: 1803448907
+Randomness seeded to: 541671888
 ===============================================================================
 All tests passed (112 assertions in 1 test case)
 
@@ -156,7 +156,7 @@ All tests passed (112 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"Array: power_in" end time: Oct 13 11:28 EDT
+"Array: power_in" end time: Oct 13 13:41 EDT
 "Array: power_in" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -164,11 +164,11 @@ Test Passed.
 9/20 Test: BatteryState: update_energy_remaining
 Command: "/Users/samba/Documents/minisim/build/src/SolarCar/Battery/battery_tests" "BatteryState: update_energy_remaining"
 Directory: /Users/samba/Documents/minisim/build/src/SolarCar/Battery
-"BatteryState: update_energy_remaining" start time: Oct 13 11:28 EDT
+"BatteryState: update_energy_remaining" start time: Oct 13 13:41 EDT
 Output:
 ----------------------------------------------------------
 Filters: "BatteryState: update_energy_remaining"
-Randomness seeded to: 3544363069
+Randomness seeded to: 3022641120
 ===============================================================================
 All tests passed (104 assertions in 1 test case)
 
@@ -176,7 +176,7 @@ All tests passed (104 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BatteryState: update_energy_remaining" end time: Oct 13 11:28 EDT
+"BatteryState: update_energy_remaining" end time: Oct 13 13:41 EDT
 "BatteryState: update_energy_remaining" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -184,11 +184,11 @@ Test Passed.
 10/20 Test: Battery: state_of_charge
 Command: "/Users/samba/Documents/minisim/build/src/SolarCar/Battery/battery_tests" "Battery: state_of_charge"
 Directory: /Users/samba/Documents/minisim/build/src/SolarCar/Battery
-"Battery: state_of_charge" start time: Oct 13 11:28 EDT
+"Battery: state_of_charge" start time: Oct 13 13:41 EDT
 Output:
 ----------------------------------------------------------
 Filters: "Battery: state_of_charge"
-Randomness seeded to: 3796254132
+Randomness seeded to: 2944237234
 ===============================================================================
 All tests passed (57 assertions in 1 test case)
 
@@ -196,7 +196,7 @@ All tests passed (57 assertions in 1 test case)
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"Battery: state_of_charge" end time: Oct 13 11:28 EDT
+"Battery: state_of_charge" end time: Oct 13 13:41 EDT
 "Battery: state_of_charge" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -204,11 +204,11 @@ Test Passed.
 11/20 Test: Battery: current_voltage
 Command: "/Users/samba/Documents/minisim/build/src/SolarCar/Battery/battery_tests" "Battery: current_voltage"
 Directory: /Users/samba/Documents/minisim/build/src/SolarCar/Battery
-"Battery: current_voltage" start time: Oct 13 11:28 EDT
+"Battery: current_voltage" start time: Oct 13 13:41 EDT
 Output:
 ----------------------------------------------------------
 Filters: "Battery: current_voltage"
-Randomness seeded to: 1225937565
+Randomness seeded to: 831509725
 ===============================================================================
 All tests passed (58 assertions in 1 test case)
 
@@ -216,7 +216,7 @@ All tests passed (58 assertions in 1 test case)
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"Battery: current_voltage" end time: Oct 13 11:28 EDT
+"Battery: current_voltage" end time: Oct 13 13:41 EDT
 "Battery: current_voltage" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -224,11 +224,11 @@ Test Passed.
 12/20 Test: Battery: power_loss
 Command: "/Users/samba/Documents/minisim/build/src/SolarCar/Battery/battery_tests" "Battery: power_loss"
 Directory: /Users/samba/Documents/minisim/build/src/SolarCar/Battery
-"Battery: power_loss" start time: Oct 13 11:28 EDT
+"Battery: power_loss" start time: Oct 13 13:41 EDT
 Output:
 ----------------------------------------------------------
 Filters: "Battery: power_loss"
-Randomness seeded to: 3719011085
+Randomness seeded to: 2892270756
 ===============================================================================
 All tests passed (197 assertions in 1 test case)
 
@@ -236,7 +236,7 @@ All tests passed (197 assertions in 1 test case)
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"Battery: power_loss" end time: Oct 13 11:28 EDT
+"Battery: power_loss" end time: Oct 13 13:41 EDT
 "Battery: power_loss" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -244,19 +244,19 @@ Test Passed.
 13/20 Test: Motor: power_consumed
 Command: "/Users/samba/Documents/minisim/build/src/SolarCar/Motor/motor_tests" "Motor: power_consumed"
 Directory: /Users/samba/Documents/minisim/build/src/SolarCar/Motor
-"Motor: power_consumed" start time: Oct 13 11:28 EDT
+"Motor: power_consumed" start time: Oct 13 13:41 EDT
 Output:
 ----------------------------------------------------------
 Filters: "Motor: power_consumed"
-Randomness seeded to: 2924321552
+Randomness seeded to: 157353733
 ===============================================================================
 All tests passed (500 assertions in 1 test case)
 
 <end of output>
-Test time =   0.88 sec
+Test time =   0.89 sec
 ----------------------------------------------------------
 Test Passed.
-"Motor: power_consumed" end time: Oct 13 11:28 EDT
+"Motor: power_consumed" end time: Oct 13 13:41 EDT
 "Motor: power_consumed" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -264,11 +264,11 @@ Test Passed.
 14/20 Test: Tire: rolling_resistance
 Command: "/Users/samba/Documents/minisim/build/src/SolarCar/Tire/tire_tests" "Tire: rolling_resistance"
 Directory: /Users/samba/Documents/minisim/build/src/SolarCar/Tire
-"Tire: rolling_resistance" start time: Oct 13 11:28 EDT
+"Tire: rolling_resistance" start time: Oct 13 13:41 EDT
 Output:
 ----------------------------------------------------------
 Filters: "Tire: rolling_resistance"
-Randomness seeded to: 254207796
+Randomness seeded to: 3150556984
 ===============================================================================
 All tests passed (500 assertions in 1 test case)
 
@@ -276,7 +276,7 @@ All tests passed (500 assertions in 1 test case)
 Test time =   0.88 sec
 ----------------------------------------------------------
 Test Passed.
-"Tire: rolling_resistance" end time: Oct 13 11:28 EDT
+"Tire: rolling_resistance" end time: Oct 13 13:41 EDT
 "Tire: rolling_resistance" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -284,11 +284,11 @@ Test Passed.
 15/20 Test: RaceSegmentRunner: calculate_resistive_force
 Command: "/Users/samba/Documents/minisim/build/src/RaceSegmentRunner/race_segment_runner_tests" "RaceSegmentRunner: calculate_resistive_force"
 Directory: /Users/samba/Documents/minisim/build/src/RaceSegmentRunner
-"RaceSegmentRunner: calculate_resistive_force" start time: Oct 13 11:28 EDT
+"RaceSegmentRunner: calculate_resistive_force" start time: Oct 13 13:41 EDT
 Output:
 ----------------------------------------------------------
 Filters: "RaceSegmentRunner: calculate_resistive_force"
-Randomness seeded to: 3076558359
+Randomness seeded to: 1949996029
 ===============================================================================
 All tests passed (30 assertions in 1 test case)
 
@@ -296,7 +296,7 @@ All tests passed (30 assertions in 1 test case)
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"RaceSegmentRunner: calculate_resistive_force" end time: Oct 13 11:28 EDT
+"RaceSegmentRunner: calculate_resistive_force" end time: Oct 13 13:41 EDT
 "RaceSegmentRunner: calculate_resistive_force" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -304,11 +304,11 @@ Test Passed.
 16/20 Test: RaceSegmentRunner: calculate_power_out
 Command: "/Users/samba/Documents/minisim/build/src/RaceSegmentRunner/race_segment_runner_tests" "RaceSegmentRunner: calculate_power_out"
 Directory: /Users/samba/Documents/minisim/build/src/RaceSegmentRunner
-"RaceSegmentRunner: calculate_power_out" start time: Oct 13 11:28 EDT
+"RaceSegmentRunner: calculate_power_out" start time: Oct 13 13:41 EDT
 Output:
 ----------------------------------------------------------
 Filters: "RaceSegmentRunner: calculate_power_out"
-Randomness seeded to: 4262864247
+Randomness seeded to: 1333991536
 ===============================================================================
 All tests passed (30 assertions in 1 test case)
 
@@ -316,7 +316,7 @@ All tests passed (30 assertions in 1 test case)
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"RaceSegmentRunner: calculate_power_out" end time: Oct 13 11:28 EDT
+"RaceSegmentRunner: calculate_power_out" end time: Oct 13 13:41 EDT
 "RaceSegmentRunner: calculate_power_out" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -324,11 +324,11 @@ Test Passed.
 17/20 Test: RaceSegmentRunner: calculate_power_in
 Command: "/Users/samba/Documents/minisim/build/src/RaceSegmentRunner/race_segment_runner_tests" "RaceSegmentRunner: calculate_power_in"
 Directory: /Users/samba/Documents/minisim/build/src/RaceSegmentRunner
-"RaceSegmentRunner: calculate_power_in" start time: Oct 13 11:28 EDT
+"RaceSegmentRunner: calculate_power_in" start time: Oct 13 13:41 EDT
 Output:
 ----------------------------------------------------------
 Filters: "RaceSegmentRunner: calculate_power_in"
-Randomness seeded to: 980883897
+Randomness seeded to: 1672397987
 ===============================================================================
 All tests passed (30 assertions in 1 test case)
 
@@ -336,7 +336,7 @@ All tests passed (30 assertions in 1 test case)
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"RaceSegmentRunner: calculate_power_in" end time: Oct 13 11:28 EDT
+"RaceSegmentRunner: calculate_power_in" end time: Oct 13 13:41 EDT
 "RaceSegmentRunner: calculate_power_in" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -344,11 +344,11 @@ Test Passed.
 18/20 Test: RaceSegmentRunner: calculate_power_net
 Command: "/Users/samba/Documents/minisim/build/src/RaceSegmentRunner/race_segment_runner_tests" "RaceSegmentRunner: calculate_power_net"
 Directory: /Users/samba/Documents/minisim/build/src/RaceSegmentRunner
-"RaceSegmentRunner: calculate_power_net" start time: Oct 13 11:28 EDT
+"RaceSegmentRunner: calculate_power_net" start time: Oct 13 13:41 EDT
 Output:
 ----------------------------------------------------------
 Filters: "RaceSegmentRunner: calculate_power_net"
-Randomness seeded to: 113710203
+Randomness seeded to: 1665304969
 ===============================================================================
 All tests passed (54 assertions in 1 test case)
 
@@ -356,7 +356,7 @@ All tests passed (54 assertions in 1 test case)
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"RaceSegmentRunner: calculate_power_net" end time: Oct 13 11:28 EDT
+"RaceSegmentRunner: calculate_power_net" end time: Oct 13 13:41 EDT
 "RaceSegmentRunner: calculate_power_net" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -364,19 +364,19 @@ Test Passed.
 19/20 Test: RaceSegmentRunner: calculate_static_charging_gain
 Command: "/Users/samba/Documents/minisim/build/src/RaceRunner/racerunner_tests" "RaceSegmentRunner: calculate_static_charging_gain"
 Directory: /Users/samba/Documents/minisim/build/src/RaceRunner
-"RaceSegmentRunner: calculate_static_charging_gain" start time: Oct 13 11:28 EDT
+"RaceSegmentRunner: calculate_static_charging_gain" start time: Oct 13 13:41 EDT
 Output:
 ----------------------------------------------------------
 Filters: "RaceSegmentRunner: calculate_static_charging_gain"
-Randomness seeded to: 2183351772
+Randomness seeded to: 2754810453
 ===============================================================================
 All tests passed (10 assertions in 1 test case)
 
 <end of output>
-Test time =   1.75 sec
+Test time =   1.74 sec
 ----------------------------------------------------------
 Test Passed.
-"RaceSegmentRunner: calculate_static_charging_gain" end time: Oct 13 11:28 EDT
+"RaceSegmentRunner: calculate_static_charging_gain" end time: Oct 13 13:41 EDT
 "RaceSegmentRunner: calculate_static_charging_gain" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -384,11 +384,11 @@ Test Passed.
 20/20 Test: RaceSegmentRunner: calculate_racetime
 Command: "/Users/samba/Documents/minisim/build/src/RaceRunner/racerunner_tests" "RaceSegmentRunner: calculate_racetime"
 Directory: /Users/samba/Documents/minisim/build/src/RaceRunner
-"RaceSegmentRunner: calculate_racetime" start time: Oct 13 11:28 EDT
+"RaceSegmentRunner: calculate_racetime" start time: Oct 13 13:41 EDT
 Output:
 ----------------------------------------------------------
 Filters: "RaceSegmentRunner: calculate_racetime"
-Randomness seeded to: 3556027264
+Randomness seeded to: 2414194974
 ===============================================================================
 All tests passed (10 assertions in 1 test case)
 
@@ -396,8 +396,8 @@ All tests passed (10 assertions in 1 test case)
 Test time =   1.81 sec
 ----------------------------------------------------------
 Test Passed.
-"RaceSegmentRunner: calculate_racetime" end time: Oct 13 11:28 EDT
+"RaceSegmentRunner: calculate_racetime" end time: Oct 13 13:41 EDT
 "RaceSegmentRunner: calculate_racetime" time elapsed: 00:00:01
 ----------------------------------------------------------
 
-End testing: Oct 13 11:28 EDT
+End testing: Oct 13 13:41 EDT
