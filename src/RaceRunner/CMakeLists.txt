@@ -1,16 +1,16 @@
-add_library(racerunner STATIC)
-
-target_sources(racerunner PUBLIC RaceRunner.h PRIVATE RaceRunner.cpp)
+add_library(racerunner STATIC
+    RaceRunner.cpp
+    RaceRunner.h
+)
 
 target_link_libraries(
-	racerunner
-	PRIVATE
-		race_segment_runner
-		solarcar
-		weather
-		route
-		weather_stations
-
+    racerunner
+    PUBLIC
+        race_segment_runner
+        solarcar
+        weather
+        route
+        weather_stations
 )
 
 add_executable(racerunner_tests RaceRunnerTests.cpp)

@@ -30,6 +30,7 @@ target_link_libraries(
 	INTERFACE
 		solarcar
 		raceconfig
+		
 )
 
 add_executable(minisim minisim.cpp)
