@@ -12,7 +12,7 @@ std::optional<Optimizer::OptimizationOutput> BinarySearchOptimizer::optimize_rac
     double high = maximum_speed;
     OptimizationOutput best_output{};
     best_output.racetime = std::numeric_limits<double>::max();
-    bool found_any_valid_speed = false;
+    bool found_speed = false;
 
     while (high - low > precision) {
         double mid = (low + high) / 2;
@@ -20,7 +20,7 @@ std::optional<Optimizer::OptimizationOutput> BinarySearchOptimizer::optimize_rac
 
         if (race_time.has_value()) {
             
-            found_any_valid_speed = true;
+            found_speed = true;
             if (race_time.value() < best_output.racetime) {
                 best_output.speed = mid;
                 best_output.racetime = race_time.value();
@@ -32,14 +32,11 @@ std::optional<Optimizer::OptimizationOutput> BinarySearchOptimizer::optimize_rac
         }
     }
 
-    if (!found_any_valid_speed) {
+    if (!found_speed) {
         return std::nullopt;
     }
 
-    if (best_output.racetime == std::numeric_limits<double>::max()) {
-        best_output.speed = low;
-        best_output.racetime = RaceRunner::calculate_racetime(car, route, weather, schedule, low).value_or(std::numeric_limits<double>::max());
-    }
+   
 
     return best_output;
 }
