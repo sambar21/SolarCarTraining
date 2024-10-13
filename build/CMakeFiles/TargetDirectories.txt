@@ -148,3 +148,7 @@
 /Users/samba/Documents/minisim/build/src/RaceRunner/CMakeFiles/test.dir
 /Users/samba/Documents/minisim/build/src/RaceRunner/CMakeFiles/edit_cache.dir
 /Users/samba/Documents/minisim/build/src/RaceRunner/CMakeFiles/rebuild_cache.dir
+/Users/samba/Documents/minisim/build/src/Optimizer/CMakeFiles/optimizers.dir
+/Users/samba/Documents/minisim/build/src/Optimizer/CMakeFiles/test.dir
+/Users/samba/Documents/minisim/build/src/Optimizer/CMakeFiles/edit_cache.dir
+/Users/samba/Documents/minisim/build/src/Optimizer/CMakeFiles/rebuild_cache.dir

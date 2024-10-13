@@ -16,4 +16,5 @@ target_link_libraries(
 		route
 		weather
 		solar_position
+		optimizers
 )

@@ -984,6 +984,19 @@ racerunner_tests/fast:
 	$(MAKE) $(MAKESILENT) -f src/RaceRunner/CMakeFiles/racerunner_tests.dir/build.make src/RaceRunner/CMakeFiles/racerunner_tests.dir/build
 .PHONY : racerunner_tests/fast
 
+#=============================================================================
+# Target rules for targets named optimizers
+
+# Build rule for target.
+optimizers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 optimizers
+.PHONY : optimizers
+
+# fast build rule for target.
+optimizers/fast:
+	$(MAKE) $(MAKESILENT) -f src/Optimizer/CMakeFiles/optimizers.dir/build.make src/Optimizer/CMakeFiles/optimizers.dir/build
+.PHONY : optimizers/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1040,6 +1053,7 @@ help:
 	@echo "... minisim"
 	@echo "... motor"
 	@echo "... motor_tests"
+	@echo "... optimizers"
 	@echo "... parsing"
 	@echo "... physical_constants"
 	@echo "... race_segment_runner"

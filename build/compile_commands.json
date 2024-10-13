@@ -922,5 +922,23 @@
   "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDEBUG -I/Users/samba/Documents/minisim/build -I/Users/samba/Documents/minisim -I/Users/samba/Documents/minisim/src -I/Users/samba/Documents/minisim/external -I/Users/samba/Documents/minisim/src/RaceConfig/WeatherStations/RaceConfig -I/Users/samba/Documents/minisim/build/src -isystem /Users/samba/Documents/minisim/build/_deps/catch2-src/src/catch2/.. -isystem /Users/samba/Documents/minisim/build/_deps/catch2-build/generated-includes -Wall -Wextra -Wpedantic -Werror -Wno-error=attributes -g -O0 -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/racerunner_tests.dir/RaceRunnerTests.cpp.o -c /Users/samba/Documents/minisim/src/RaceRunner/RaceRunnerTests.cpp",
   "file": "/Users/samba/Documents/minisim/src/RaceRunner/RaceRunnerTests.cpp",
   "output": "src/RaceRunner/CMakeFiles/racerunner_tests.dir/RaceRunnerTests.cpp.o"
+},
+{
+  "directory": "/Users/samba/Documents/minisim/build/src/Optimizer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDEBUG -I/Users/samba/Documents/minisim/build -I/Users/samba/Documents/minisim -I/Users/samba/Documents/minisim/src -I/Users/samba/Documents/minisim/external -I/Users/samba/Documents/minisim/src/RaceConfig/WeatherStations/RaceConfig -I/Users/samba/Documents/minisim/src/RaceConfig/SolarPosition/RaceConfig -Wall -Wextra -Wpedantic -Werror -Wno-error=attributes -g -O0 -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/optimizers.dir/Optimizer.cpp.o -c /Users/samba/Documents/minisim/src/Optimizer/Optimizer.cpp",
+  "file": "/Users/samba/Documents/minisim/src/Optimizer/Optimizer.cpp",
+  "output": "src/Optimizer/CMakeFiles/optimizers.dir/Optimizer.cpp.o"
+},
+{
+  "directory": "/Users/samba/Documents/minisim/build/src/Optimizer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDEBUG -I/Users/samba/Documents/minisim/build -I/Users/samba/Documents/minisim -I/Users/samba/Documents/minisim/src -I/Users/samba/Documents/minisim/external -I/Users/samba/Documents/minisim/src/RaceConfig/WeatherStations/RaceConfig -I/Users/samba/Documents/minisim/src/RaceConfig/SolarPosition/RaceConfig -Wall -Wextra -Wpedantic -Werror -Wno-error=attributes -g -O0 -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/optimizers.dir/BinarySearchOptimizer.cpp.o -c /Users/samba/Documents/minisim/src/Optimizer/BinarySearchOptimizer.cpp",
+  "file": "/Users/samba/Documents/minisim/src/Optimizer/BinarySearchOptimizer.cpp",
+  "output": "src/Optimizer/CMakeFiles/optimizers.dir/BinarySearchOptimizer.cpp.o"
+},
+{
+  "directory": "/Users/samba/Documents/minisim/build/src/Optimizer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDEBUG -I/Users/samba/Documents/minisim/build -I/Users/samba/Documents/minisim -I/Users/samba/Documents/minisim/src -I/Users/samba/Documents/minisim/external -I/Users/samba/Documents/minisim/src/RaceConfig/WeatherStations/RaceConfig -I/Users/samba/Documents/minisim/src/RaceConfig/SolarPosition/RaceConfig -Wall -Wextra -Wpedantic -Werror -Wno-error=attributes -g -O0 -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/optimizers.dir/LinearSearchOptimizer.cpp.o -c /Users/samba/Documents/minisim/src/Optimizer/LinearSearchOptimizer.cpp",
+  "file": "/Users/samba/Documents/minisim/src/Optimizer/LinearSearchOptimizer.cpp",
+  "output": "src/Optimizer/CMakeFiles/optimizers.dir/LinearSearchOptimizer.cpp.o"
 }
 ]
